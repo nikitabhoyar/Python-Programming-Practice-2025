@@ -1,7 +1,13 @@
-list1 = ["apple","banana","cherry","orange","apple","lemon"]
-list2 = [1 , 2 , 3 ,4 , 5 , 6, 7]
-list3 = [ True, False , False]
+list1 = ["apple","banana","cherry","orange","apple","lemon"] 
+list2 = [1 , 2 , 3 ,4 , 5 , 6, 7 ] 
+list3 = [ True, False , False ] 
 
-print(list1,list2,list3) 
+print(list1,list2,list3)  
+
+list4 = ["abc", 123 , 'niki' , 567 , "female"]
+print(list4) 
+
+
+
 
 
