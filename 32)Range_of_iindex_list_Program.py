@@ -20,3 +20,18 @@ print(thislist[:4])
 thislist = ["apple","banana","cherry","mangoes","kiwi","melon","orange"]
 print(thislist[2:])
 
+#Range of Negavtive index 
+
+#Specify negative indexes if you want to start the search from the end of the list:
+
+#This example returns the items from "orange" (-4) to, but NOT including "mango" (-1):
+
+thislist = ["apple","banana","cherry","orange","kiwi","avacado","grapes"]
+print(thislist[-4:-1])
+
+#CHECK IF ITEM IS EXIST OR NOT 
+
+thislist = ["apple","banana","orange","kiwi","avacado","grapes"]
+if "apple" in thislist:
+    print("yes, Apple is present")
+
