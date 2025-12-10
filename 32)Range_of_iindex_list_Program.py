@@ -13,3 +13,10 @@ print(flowers[2:4])
 
 thislist = ["apple","banana","cherry","orange","kiwi","kiwi","melon","mangoes"]
 print(thislist[:4])
+
+
+#By leaving out the end value, the range will go on to the end of the list:
+
+thislist = ["apple","banana","cherry","mangoes","kiwi","melon","orange"]
+print(thislist[2:])
+
