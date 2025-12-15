@@ -1,0 +1,97 @@
+# Sort List Alphanumerically
+# List objects have a sort() method that will sort the list alphanumerically, ascending, by default:
+
+# Example 
+# Sort the list alphabetically:
+
+thislist = ["orange","mango","cherry","banana","apple","custuradapple","grapes"]
+thislist.sort()
+print(thislist)
+
+#####################################################################################################
+
+# Sort the list numerically ascending 
+
+Numbers = [30,50,80,10,36,29,45,69,89]
+Numbers.sort()
+print(Numbers)
+
+
+#####################################################################################################
+
+# Sort Descending
+# To sort descending, use the keyword argument reverse = True:
+
+#Example
+#Sort the list descending:
+
+thislist = ["orange","banana","apple","grapes","cherry","mango","custuirdapple"]
+thislist.sort(reverse = True)
+print(thislist)
+
+##################################################################################
+
+# Example
+# Sort the list descending:
+
+Numbers = [10,20,40,509,39,45,90,78,67,90.34]
+Numbers.sort(reverse = True)
+print(Numbers)
+
+##################################################################################
+
+
+# Customize Sort Function
+# You can also customize your own function by using the keyword argument key = function.
+
+# The function will return a number that will be used to sort the list (the lowest number first):
+
+# Example
+# Sort the list based on how close the number is to 50:
+
+def myfunc(n):
+    return abs(n - 50)
+
+thislist = [100,50,65,82,23]
+thislist.sort(key = myfunc)
+print(thislist)
+
+#######################################################################################
+
+
+# Case Insensitive Sort
+# By default the sort() method is case sensitive, resulting in all capital letters being sorted before lower case letters:
+
+# Example
+# Case sensitive sorting can give an unexpected result:
+
+thislist = ["orange","banana","apple","Kiwi","Grapes"]
+thislist.sort()
+print(thislist)
+
+########################################################################################
+
+# So if you want a case-insensitive sort function, use str.lower as a key function:
+
+# Example
+# Perform a case-insensitive sort of the list:
+
+thislist = ["banana","Orange","Kiwi","cherry"]
+thislist.sort(key = str.lower)
+print(thislist)
+
+#######################################################################################
+
+# Reverse Order
+# What if you want to reverse the order of a list, regardless of the alphabet?
+
+# The reverse() method reverses the current sorting order of the elements.
+
+# Example
+# Reverse the order of the list items:
+
+thislist = ["banana","orange","grapes","apple","cherry"]
+thislist.reverse()
+print(thislist)
+
+
