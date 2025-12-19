@@ -72,4 +72,31 @@ print(tuple1,tuple2,tuple3)
 
 #########################################################################################################################
 
+# Example
+
+# A tuple with string,integers and boolean value.
+
+# type()
+# From Python's perspective, tuples are defined as objects with the data type 'tuple':
+
+# <class 'tuple'>
+# Example
+
+# What is the data type of a tuple?
+
+mytuple = ("apple","banana","cherry")
+print(type(mytuple))
+
+###########################################################################################################################
+
+# The tuple() Constructor
+# It is also possible to use the tuple() constructor to make a tuple.
+# Example
+# Using the tuple method to make a tuple.
+
+thistuple = tuple(("apple","banana","cherry","watermelon"))
+print(thistuple)
+
+
+
 
